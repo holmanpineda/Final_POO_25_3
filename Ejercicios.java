@@ -224,7 +224,7 @@ public class Ejercicios {
      */
     public boolean esDivisiblePor(int num, int divisor) {
         // TODO: Implementar
-        return false;
+        return num% divisor==0;
     }
     
     // =================================================================
