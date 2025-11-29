@@ -290,7 +290,11 @@ public class Ejercicios {
      */
     public double calcularDescuentoEstudiante(double precio, int edad, boolean esEstudiante) {
         // TODO: Implementar
-        return 0.0;
+        if (esEstudiante && edad < 25) {
+            return precio * 0.85;
+        } else {
+            return precio;
+        }
     }
     
     /**
