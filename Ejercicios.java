@@ -246,7 +246,14 @@ public class Ejercicios {
      */
     public String clasificarNumero(int num) {
         // TODO: Implementar
-        return "";
+        if (num > 0) {
+            return "positivo";
+        } else if (num < 0) {
+            return "negativo";
+        } else {
+            return "cero";
+        }
+
     }
     
     /**
