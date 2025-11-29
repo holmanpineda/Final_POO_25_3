@@ -197,7 +197,7 @@ public class Ejercicios {
      */
     public boolean esMultiploDeTres(int num) {
         // TODO: Implementar
-        return false;
+        return num%3==0;
     }
     
     /**
