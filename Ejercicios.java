@@ -206,7 +206,7 @@ public class Ejercicios {
      */
     public boolean esMultiploDeN(int num, int n) {
         // TODO: Implementar
-        return false;
+        return num % n == 0;
     }
     
     /**
