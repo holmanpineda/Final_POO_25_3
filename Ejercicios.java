@@ -157,7 +157,8 @@ public class Ejercicios {
      */
     public int sumarDosNumeros(int a, int b) {
         // TODO: Implementar
-        return 0;
+        int suma= a+b;
+        return suma;
     }
     
     /**
