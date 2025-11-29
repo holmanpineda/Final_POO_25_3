@@ -133,7 +133,8 @@ public class Ejercicios {
      */
     public double calcularSalarioTotal(double salarioBase, double bonos) {
         // TODO: Implementar
-        return 0.0;
+        int salario=(int) (salarioBase + bonos);
+        return salario;
     }
     
     /**
