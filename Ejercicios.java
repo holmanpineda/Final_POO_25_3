@@ -143,7 +143,8 @@ public class Ejercicios {
      */
     public int actualizarContador(int contadorActual, int incremento) {
         // TODO: Implementar
-        return 0;
+        int suma=contadorActual+incremento;
+        return suma;
     }
     
     // =================================================================
