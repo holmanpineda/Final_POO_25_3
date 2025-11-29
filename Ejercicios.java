@@ -92,7 +92,8 @@ public class Ejercicios {
      */
     public int asignarEdad(int edad) {
         // TODO: Implementar
-        return 0;
+        int años = edad;
+        return años;
     }
     
     /**
