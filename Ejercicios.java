@@ -68,7 +68,8 @@ public class Ejercicios {
      */
     public int convertirDecimalAEntero(double decimal) {
         // TODO: Implementar
-        return 0;
+        int entero = (int) decimal;
+        return entero;
     }
     
     /**
