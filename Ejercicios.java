@@ -303,7 +303,17 @@ public class Ejercicios {
      */
     public String determinarCategoria(int edad) {
         // TODO: Implementar
-        return "";
+        if (edad >= 0 && edad <= 12) {
+            return "niño";
+        } else if (edad >= 13 && edad <= 17) {
+            return "adolescente";
+        } else if (edad >= 18 && edad <= 64) {
+            return "adulto";
+        } else if (edad >= 65) {
+            return "adulto mayor";
+        } else {
+            return "edad inválida";
+        }
     }
     
     // =================================================================
