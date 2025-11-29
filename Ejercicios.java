@@ -276,7 +276,12 @@ public class Ejercicios {
      */
     public String evaluarAptitud(double nota, int edad, boolean tieneExperiencia) {
         // TODO: Implementar
-        return "";
+        if (nota >= 3.0 && edad >= 18 && tieneExperiencia) {
+            return "apto";
+        } else {
+            return "no apto";
+        }
+
     }
     
     /**
