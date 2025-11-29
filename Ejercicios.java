@@ -458,6 +458,13 @@ public class Ejercicios {
      */
     public String tablaMultiplicar(int num) {
         // TODO: Implementar
-        return "";
+        String resultado = "";
+        for (int i = 1; i <= 10; i++) {
+            resultado += num + "x" + i + "=" + (num * i);
+            if (i < 10) {
+                resultado += "\n";
+            }
+        }
+        return resultado;
     }
 }
