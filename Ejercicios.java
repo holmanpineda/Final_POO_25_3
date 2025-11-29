@@ -262,7 +262,12 @@ public class Ejercicios {
      */
     public String evaluarPrueba(double nota) {
         // TODO: Implementar
-        return "";
+        if (nota >= 3.0) {
+            return "apto";
+        } else {
+            return "no apto";
+        }
+
     }
     
     /**
