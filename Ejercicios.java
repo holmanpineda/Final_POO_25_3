@@ -112,7 +112,8 @@ public class Ejercicios {
      */
     public int[] intercambiarValores(int a, int b) {
         // TODO: Implementar
-        return new int[]{0, 0};
+
+        return new int[]{b, a};
     }
     
     /**
