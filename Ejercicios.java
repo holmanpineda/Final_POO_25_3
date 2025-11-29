@@ -404,7 +404,32 @@ public class Ejercicios {
      */
     public boolean numeroMagico(int num) {
         // TODO: Implementar
-        return false;
+        int suma = 0;
+        //int suma = Math.abs(num);
+        int ultimo = num % 10;
+
+        // Primer dígito
+        /*
+        int primero = num;
+        while (primero >= 10) {
+            primero /= 10;
+        }
+        System.out.println("primero"+primero);
+        System.out.println("ultimo"+ultimo);
+*/
+        int temp = num;
+        while (temp >= 100) {
+            temp /= 10;
+        }
+
+        int primero = temp / 10;
+        int segundo = temp % 10;
+
+        System.out.println("Número: " + num);
+        System.out.println("Primer dígito: " + primero);
+        System.out.println("Segundo dígito: " + segundo);
+        return (primero + segundo) % 7 == 0;
+
     }
     
     /**
