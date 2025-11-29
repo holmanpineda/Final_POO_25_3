@@ -59,7 +59,7 @@ public class Ejercicios {
      */
     public int convertirTextoAEntero(String texto) {
         // TODO: Implementar
-        return 0;
+        return Integer.parseInt(texto);
     }
     
     /**
