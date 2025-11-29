@@ -122,7 +122,9 @@ public class Ejercicios {
      */
     public String concatenarDatos(String nombre, int edad) {
         // TODO: Implementar
-        return "";
+        String persona=nombre;
+        int num= edad;
+        return nombre + " tiene " + edad + " años";
     }
     
     /**
