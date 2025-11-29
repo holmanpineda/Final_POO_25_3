@@ -50,7 +50,7 @@ public class Ejercicios {
     public String convertirEnteroATexto(int num) {
 
 
-        return ""+num;
+        return String.valueOf(num);
     }
     
     /**
