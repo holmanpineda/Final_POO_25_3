@@ -39,7 +39,8 @@ public class Ejercicios {
      */
     public boolean declararBooleano() {
         // TODO: Implementar
-        return false;
+       boolean resultado=true;
+        return resultado;
     }
     
     /**
