@@ -237,7 +237,7 @@ public class Ejercicios {
      */
     public boolean esMayorDeEdad(int edad) {
         // TODO: Implementar
-        return false;
+        return edad>=18;
     }
     
     /**
