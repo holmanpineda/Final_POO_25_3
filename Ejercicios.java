@@ -19,7 +19,8 @@ public class Ejercicios {
      */
     public double declararDecimal() {
         // TODO: Implementar
-        return 0.0;
+        double num=3.14159;
+        return num;
     }
     
     /**
