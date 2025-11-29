@@ -29,7 +29,8 @@ public class Ejercicios {
      */
     public String declararTexto() {
         // TODO: Implementar
-        return "";
+        String mensaje = "Hola Mundo";
+        return mensaje;
     }
     
     /**
