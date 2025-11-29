@@ -78,7 +78,8 @@ public class Ejercicios {
      */
     public double convertirEnteroADecimal(int entero) {
         // TODO: Implementar
-        return 0.0;
+        double decimal= (double) entero;
+        return decimal;
     }
     
     // =================================================================
