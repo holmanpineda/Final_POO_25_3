@@ -215,7 +215,7 @@ public class Ejercicios {
      */
     public int incrementarEnUno(int num) {
         // TODO: Implementar
-        return 0;
+        return ++num;
     }
     
     /**
