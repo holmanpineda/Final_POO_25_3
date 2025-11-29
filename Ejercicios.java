@@ -102,7 +102,8 @@ public class Ejercicios {
      */
     public String asignarNombre(String nombre) {
         // TODO: Implementar
-        return "";
+        String persona=nombre;
+        return persona;
     }
     
     /**
