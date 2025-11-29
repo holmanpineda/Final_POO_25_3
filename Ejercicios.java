@@ -187,7 +187,8 @@ public class Ejercicios {
      */
     public boolean esParYPositivo(int num) {
         // TODO: Implementar
-        return false;
+
+        return num%2==0 && num>0;
     }
     
     /**
