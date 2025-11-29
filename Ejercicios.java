@@ -167,7 +167,8 @@ public class Ejercicios {
      */
     public int calcularResto(int dividendo, int divisor) {
         // TODO: Implementar
-        return 0;
+        int residuo= dividendo%divisor;
+        return residuo;
     }
     
     /**
