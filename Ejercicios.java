@@ -438,7 +438,18 @@ public class Ejercicios {
      */
     public int contarDigitos(int num) {
         // TODO: Implementar
-        return 0;
+        if (num == 0) return 1;
+
+        num = Math.abs(num);  // Manejar negativos
+        int contador = 0;
+
+        while (num > 0) {
+            contador++;
+            num /= 10;
+        }
+
+        return contador;
+
     }
     
     /**
