@@ -177,7 +177,8 @@ public class Ejercicios {
      */
     public boolean esMayorQue(int a, int b) {
         // TODO: Implementar
-        return false;
+        boolean mayorque= a>b;
+        return mayorque;
     }
     
     /**
