@@ -326,7 +326,11 @@ public class Ejercicios {
      */
     public int sumarHastaN(int n) {
         // TODO: Implementar
-        return 0;
+        int sumar = 0;
+        for (int i = 1; i <= n; i++) {
+            sumar += i;
+        }
+        return sumar;
     }
     
     /**
